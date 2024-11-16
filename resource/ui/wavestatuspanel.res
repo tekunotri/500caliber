@@ -98,7 +98,7 @@
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter"
+		"image"			"replay/thumbnails/yayahud/meter"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"

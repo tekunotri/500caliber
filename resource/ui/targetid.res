@@ -13,10 +13,10 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/bg_black"
+		"image"			"replay/thumbnails/yayahud/bg_black"
 		"scaleImage"		"1"
-		"teambg_2"      "replay/thumbnails/bg_redtri"
-        "teambg_3"      "replay/thumbnails/bg_bluetri"
+		"teambg_2"      "replay/thumbnails/yayahud/bg_redtri"
+        "teambg_3"      "replay/thumbnails/yayahud/bg_bluetri"
 		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -36,7 +36,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay/thumbnails/bg_blue"
+		"image"			"replay/thumbnails/yayahud/bg_blue"
 		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -56,7 +56,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay/thumbnails/bg_red"
+		"image"			"replay/thumbnails/yayahud/bg_red"
 		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"

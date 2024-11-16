@@ -788,7 +788,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Liberation Sans Regular"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -799,7 +799,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Liberation Sans Regular"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -810,7 +810,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Liberation Sans Regular"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -821,7 +821,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Liberation Sans Regular"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -832,7 +832,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Liberation Sans Regular"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -843,7 +843,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Liberation Sans Regular"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -854,7 +854,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Liberation Sans Regular"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -865,7 +865,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Liberation Sans Regular"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -876,7 +876,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Liberation Sans Regular"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -941,7 +941,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"MediumNumbers"
+				"name"			"Liberation Sans Regular"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3759,35 +3759,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Liberation Sans Regular"
 				"tall"		"1"
 				"yres"		"480 599"
 				"antialias" 	"0"
 			}
 			"2"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Liberation Sans Regular"
 				"tall"		"2"
 				"yres"	"600 719"
 				"antialias" 	"1"
 			}
 			"3"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Liberation Sans Regular"
 				"tall"		"5"
 				"yres"	"720 767"
 				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Liberation Sans Regular"
 				"tall"		"6"
 				"yres"	"768 899"
 				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Liberation Sans Regular"
 				"tall"		"9"
 				"antialias" 	"1"
 			}
@@ -5963,7 +5963,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"DarkGraySolid"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5975,7 +5975,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"DarkGraySolid"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5988,7 +5988,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"DarkGraySolid"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6000,7 +6000,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"DarkGraySolid"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6012,7 +6012,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"DarkGraySolid"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6024,7 +6024,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Red"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6036,7 +6036,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Red"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6048,7 +6048,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Red"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6060,7 +6060,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Red"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6072,7 +6072,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Blue"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6084,7 +6084,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Blue"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6096,7 +6096,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Blue"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6175,7 +6175,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"GrayBGDarkest"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6200,7 +6200,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"DarkGraySolid"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6225,7 +6225,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"ButtonArmed"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"2"				
@@ -6238,7 +6238,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"GrayBGDarkest"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"32"				
 			"src_corner_width"								"32"
 			"draw_corner_width"								"0"				
@@ -6252,7 +6252,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"DarkGraySolid"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6265,7 +6265,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"DarkGraySolid"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6279,7 +6279,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"DarkGraySolid"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6291,7 +6291,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"ButtonArmed"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6303,7 +6303,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"ButtonArmed"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6315,7 +6315,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"DarkGraySolid"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6327,7 +6327,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"DarkGraySolid"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6341,7 +6341,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"255 190 40 255"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6353,7 +6353,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color" 										"255 190 40 255"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6365,7 +6365,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorUnique_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6377,7 +6377,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorUnique_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6391,7 +6391,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity1"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6403,7 +6403,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity1"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6415,7 +6415,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity1_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6427,7 +6427,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity1_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6441,7 +6441,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity2"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6453,7 +6453,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity2"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6465,7 +6465,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity2_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6477,7 +6477,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity2_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6491,7 +6491,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity3"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6503,7 +6503,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity3"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6515,7 +6515,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity3_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6527,7 +6527,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity3_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6541,7 +6541,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity4"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6553,7 +6553,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity4"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6565,7 +6565,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity4_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6577,7 +6577,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorrarity4_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6591,7 +6591,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"0 230 120 255"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6603,7 +6603,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"0 230 120 255"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6615,7 +6615,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorHaunted_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6627,7 +6627,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorHaunted_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6641,7 +6641,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"215 215 215 255"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6653,7 +6653,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"215 215 215 255"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6665,7 +6665,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorPaintkitWeapon_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6677,7 +6677,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorPaintkitWeaponGreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6691,7 +6691,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCollectors"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6703,7 +6703,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCollectors"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6715,7 +6715,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCollectors_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6727,7 +6727,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCollectors_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6741,7 +6741,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorVintage"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6753,7 +6753,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorVintage"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6765,7 +6765,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorVintage_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6777,7 +6777,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorVintage_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6791,7 +6791,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCommunity"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6803,7 +6803,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCommunity"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6815,7 +6815,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCommunity_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6827,7 +6827,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCommunity_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6841,7 +6841,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorDeveloper"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6853,7 +6853,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorDeveloper"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6865,7 +6865,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorDeveloper_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6877,7 +6877,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorDeveloper_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6891,7 +6891,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorSelfMade"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6903,7 +6903,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorSelfMade"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6915,7 +6915,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorSelfMade_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6927,7 +6927,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorSelfMade_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6941,7 +6941,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCustomized"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6953,7 +6953,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCustomized"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6965,7 +6965,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCustomized_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6977,7 +6977,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCustomized_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -6991,7 +6991,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"210 90 40 255"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7003,7 +7003,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"210 90 40 255"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7015,7 +7015,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorStrange_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7027,7 +7027,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorStrange_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7041,7 +7041,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCompleted"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7053,7 +7053,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCompleted"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7065,7 +7065,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCompleted_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7077,7 +7077,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"QualityColorCompleted_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7091,7 +7091,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityDefault"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7103,7 +7103,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityDefault"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7115,7 +7115,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityDefault_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7127,7 +7127,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityDefault_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7140,7 +7140,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityCommon"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7152,7 +7152,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityCommon"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7164,7 +7164,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityCommon_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7176,7 +7176,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityCommon_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7189,7 +7189,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityUncommon"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7201,7 +7201,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityUncommon"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7213,7 +7213,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityUncommon_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7225,7 +7225,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityUncommon_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7238,7 +7238,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityRare"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7250,7 +7250,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityRare"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7262,7 +7262,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityRare_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7274,7 +7274,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityRare_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7287,7 +7287,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityMythical"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7299,7 +7299,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityMythical"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7311,7 +7311,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityMythical_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7323,7 +7323,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityMythical_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7336,7 +7336,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityLegendary"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7348,7 +7348,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityLegendary"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7360,7 +7360,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityLegendary_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7372,7 +7372,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityLegendary_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7385,7 +7385,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityAncient"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7397,7 +7397,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityAncient"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7409,7 +7409,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityAncient_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7421,7 +7421,7 @@ Scheme
 			"backgroundtype"								"2"
 			"color"											"ItemRarityAncient_GreyedOut"
 			
-			"image"											"replay/thumbnails/bg_generic"
+			"image"											"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"								"24"				
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"				
@@ -7554,7 +7554,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"Flavor"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7567,7 +7567,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"Flavor"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7580,7 +7580,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"BrightGray"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7592,7 +7592,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"DarkGraySolid"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7604,7 +7604,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"ButtonBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7616,7 +7616,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"ButtonArmed"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7628,7 +7628,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"ButtonBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7640,7 +7640,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"ButtonArmed"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7652,7 +7652,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"DarkGray"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7664,7 +7664,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"ButtonBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7676,7 +7676,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"ButtonArmed"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7688,7 +7688,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7700,7 +7700,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7723,7 +7723,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"BrightGray"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7981,7 +7981,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -7993,7 +7993,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -8005,7 +8005,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -8017,7 +8017,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -8029,7 +8029,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -8041,7 +8041,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -8053,7 +8053,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -8065,7 +8065,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				
@@ -8077,7 +8077,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color" 				"GrayBG"
 			
-			"image"					"replay/thumbnails/bg_generic"
+			"image"					"replay/thumbnails/yayahud/bg_generic"
 			"src_corner_height"		"24"				
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				

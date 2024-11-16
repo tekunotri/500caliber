@@ -36,8 +36,8 @@
         "image"         "../hud/color_panel_brown"
         "scaleImage"        "1"
         "teambg_1"      "../hud/color_panel_brown"
-        "teambg_2"      "replay/thumbnails/bg_red"
-        "teambg_3"      "replay/thumbnails/bg_blue"
+        "teambg_2"      "replay/thumbnails/yayahud/bg_red"
+        "teambg_3"      "replay/thumbnails/yayahud/bg_blue"
 
         "src_corner_height"     "23"
         "src_corner_width"      "23"

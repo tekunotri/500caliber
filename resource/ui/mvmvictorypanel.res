@@ -26,7 +26,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/bg_black"
+			"image"			"replay/thumbnails/yayahud/bg_black"
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"

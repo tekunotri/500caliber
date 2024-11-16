@@ -89,8 +89,8 @@
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/bg_black"
-		"image_hidef"	"../vgui/replay/thumbnails/bg_black"
+		"image"			"replay/thumbnails/yayahud/bg_black"
+		"image_hidef"	"../vgui/replay/thumbnails/yayahud/bg_black"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -356,7 +356,7 @@
 				"proportionalToParent"	"1"
 				"positionImage"			"0"
 				"drawcolor"				"84 111 127 255"
-				"Image"					"../vgui/replay/thumbnails/objectives_corepanel_meter_solid"
+				"Image"					"replay/thumbnails/yayahud/objectives_corepanel_meter_solid"
 
 				"left_offset"			"10"
 				"right_offset"			"0"
@@ -381,7 +381,7 @@
 				"proportionalToParent"	"1"
 				"positionImage"			"0"
 				"drawcolor"				"141 160 171 255"
-				"Image"					"../vgui/replay/thumbnails/objectives_corepanel_meter"
+				"Image"					"replay/thumbnails/yayahud/objectives_corepanel_meter"
 
 				"left_offset"			"10"
 				"right_offset"			"0"
@@ -500,7 +500,7 @@
 				"visible"				"1"
 				"proportionalToParent"	"1"
 				"drawcolor"				"171 59 59 255"
-				"Image"					"../vgui/replay/thumbnails/objectives_corepanel_meter_solid"
+				"Image"					"replay/thumbnails/yayahud/objectives_corepanel_meter_solid"
 
 				"left_offset"			"0"
 				"right_offset"			"9"
@@ -525,7 +525,7 @@
 				"visible"				"1"
 				"proportionalToParent"	"1"
 				"drawcolor"				"212 151 151 255"
-				"Image"					"../vgui/replay/thumbnails/objectives_corepanel_meter_right"
+				"Image"					"replay/thumbnails/yayahud/objectives_corepanel_meter_right"
 
 				"left_offset"			"0"
 				"right_offset"			"9"

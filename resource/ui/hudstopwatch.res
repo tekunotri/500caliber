@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay/thumbnails/bg_blank"
+		"image"			"replay/thumbnails/yayahud/bg_blank"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -34,10 +34,10 @@
 		"tall"			"17"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/bg_blank"
+		"image"			"replay/thumbnails/yayahud/bg_blank"
 		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/bg_black"
-		"teambg_3"		"replay/thumbnails/bg_black"	
+		"teambg_2"		"replay/thumbnails/yayahud/bg_black"
+		"teambg_3"		"replay/thumbnails/yayahud/bg_black"	
 	}
 
 	"ObjectiveStatusTimePanel"

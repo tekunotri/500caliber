@@ -948,7 +948,7 @@
 			"tall"			"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"         "replay/thumbnails/circle"
+			"image"         "replay/thumbnails/yayahud/circle"
 			"scaleImage"	"1"
             
             //"src_corner_height"     "12"

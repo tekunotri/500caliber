@@ -22,7 +22,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/mainmenu"
+		"image"			"replay/thumbnails/yayahud/menu/mainmenu"
 		"scaleImage"	"1"
 	}
 	"MainBackground"
@@ -272,7 +272,9 @@
             "zpos"			"200"
             "wide"			"f0"
             "tall"			"480"
-            "fillcolor"		"Flavor"
+            //"fillcolor"		"Flavor"
+			"image"			"replay/thumbnails/menu/mainmenu"
+			"scaleImage"	"1"
             "visible"		"1"
             "enabled"		"1"
         }

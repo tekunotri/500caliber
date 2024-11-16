@@ -12,14 +12,12 @@
 		"delta_item_font"		"Damage"
 		"delta_item_font_big"	"Damage"
 	}
-
-	
 	"DamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c180"			
-		"ypos"			"360"	
+		"xpos"			"c200"			
+		"ypos"			"355"	
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"17"
@@ -27,7 +25,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"delta_lifetime"		"10.0"
-		"textAlignment"	"east"
+		"textAlignment"	"center"
 		"fgcolor"		"Damage"
 		"font"			"DataLabelBig"
 	}
@@ -44,7 +42,7 @@
 		"enabled"		    "1"
 		"labelText"	 		"%metal%"
 		"delta_lifetime"	"10.0"
-		"textAlignment"	 	"east"
+		"textAlignment"	 	"center"
 		"fgcolor"	 		"HudShadow"
 		"font"	 			"DataLabelBig"
 		"pin_to_sibling"	"DamageAccountValue"			

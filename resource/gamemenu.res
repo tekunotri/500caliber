@@ -105,8 +105,8 @@
 	"HomeServer"
 	{
 		"label" 		"7"
-		"command" 		"engine Home"
-        "tooltip" 		"HOME SERVER"
+		"command" 		"engine con_enable 1;toggleconsole; clear; echo hello bro; echo made by techno"
+        "tooltip" 		"hello bro"
 		"subimage" 		""
 	}
 }

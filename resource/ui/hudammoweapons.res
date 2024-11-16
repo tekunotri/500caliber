@@ -1,5 +1,6 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
+	//todo: move these to hudplayerclass if requested
 	"ammo"
     {
         "ControlName"                                  "ImagePanel"
@@ -68,7 +69,7 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"BoldNumbers36"
 		"fgcolor"		"Ammo"
-		"xpos"	        "c145"		
+		"xpos"	        "c150"		
 		"ypos"	        "365"		
 		"zpos"			"7"
 		"wide"	        "95" 
@@ -99,9 +100,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"MediumNumbers26"
+		"font"			"MediumNumbers20"
 		"fgcolor"		"AmmoReserve"
-		"xpos"	        "c240"
+		"xpos"	        "c245"
 		"ypos"			"370"
 		"zpos"			"5"
 		"wide"			"92"
@@ -115,7 +116,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"MediumNumbers26"
+		"font"			"MediumNumbers20"
 		"fgcolor"		"HudShadow"
 		"xpos"	        "1"
 		"ypos"			"1"

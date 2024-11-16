@@ -24,10 +24,10 @@
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			".replay/thumbnails/bg_black"
+		"image"			".replay/thumbnails/yayahud/bg_black"
 		"scaleImage"	"1"	
-		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_3"		"replay/thumbnails/bg_blue"
+		"teambg_2"		"replay/thumbnails/yayahud/bg_red"
+		"teambg_3"		"replay/thumbnails/yayahud/bg_blue"
 	}
 	
 	"ItemEffectMeterLabel"

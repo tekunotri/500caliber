@@ -70,10 +70,10 @@
 		"visible"		"1"         //triangle overlaps streak count
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"replay/thumbnails/bg_blank"	
-		"teambg_1"			"replay/thumbnails/bg_blank"
-		"teambg_2"      "replay/thumbnails/bg_redtri"
-        "teambg_3"      "replay/thumbnails/bg_bluetri"
+		"image"				"replay/thumbnails/yayahud/bg_blank"	
+		"teambg_1"			"replay/thumbnails/yayahud/bg_blank"
+		"teambg_2"      "replay/thumbnails/yayahud/bg_redtri"
+        "teambg_3"      "replay/thumbnails/yayahud/bg_bluetri"
 	}
 
 	"classmodelpanelBG"
@@ -88,10 +88,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"replay/thumbnails/bg_black"	
-		"teambg_1"			"replay/thumbnails/bg_black"
-		"teambg_2"			"replay/thumbnails/bg_red"
-		"teambg_3"			"replay/thumbnails/bg_blue"
+		"image"				"replay/thumbnails/yayahud/bg_black"	
+		"teambg_1"			"replay/thumbnails/yayahud/bg_black"
+		"teambg_2"			"replay/thumbnails/yayahud/bg_red"
+		"teambg_3"			"replay/thumbnails/yayahud/bg_blue"
 	}
 
 	"classmodelpanel"

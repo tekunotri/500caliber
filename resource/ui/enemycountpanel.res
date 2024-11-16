@@ -77,7 +77,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-        "image" "replay/thumbnails/mvm_crit"
+        "image" "replay/thumbnails/yayahud/mvm_crit"
 		"PaintBackground" "1"
 		
 	}
