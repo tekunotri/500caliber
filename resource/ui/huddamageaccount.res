@@ -17,7 +17,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
 		"xpos"			"c200"			
-		"ypos"			"355"	
+		"ypos"			"360"	
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"17"
@@ -27,7 +27,7 @@
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"center"
 		"fgcolor"		"Damage"
-		"font"			"DataLabelBig"
+		"font"			"DataLabelMedium"
 	}
 	"DamageAccountValueShadow"
 	{
@@ -44,7 +44,7 @@
 		"delta_lifetime"	"10.0"
 		"textAlignment"	 	"center"
 		"fgcolor"	 		"HudShadow"
-		"font"	 			"DataLabelBig"
+		"font"	 			"DataLabelMedium"
 		"pin_to_sibling"	"DamageAccountValue"			
 	}
 }

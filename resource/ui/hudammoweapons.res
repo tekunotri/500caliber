@@ -1,6 +1,6 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-	//todo: move these to hudplayerclass if requested
+		//todo: move these to hudplayerclass if requested
 	"ammo"
     {
         "ControlName"                                  "ImagePanel"
@@ -67,10 +67,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"BoldNumbers36"
+		"font"			"BoldNumbers30"
 		"fgcolor"		"Ammo"
 		"xpos"	        "c150"		
-		"ypos"	        "365"		
+		"ypos"	        "370"		
 		"zpos"			"7"
 		"wide"	        "95" 
 		"tall"	        "44" 
@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"BoldNumbers36"
+		"font"			"BoldNumbers30"
 		"fgcolor"		"HudShadow"
 		"xpos"	        "1"
 		"ypos"	        "1"
@@ -100,10 +100,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"MediumNumbers20"
+		"font"			"MediumNumbers14"
 		"fgcolor"		"AmmoReserve"
-		"xpos"	        "c245"
-		"ypos"			"370"
+		"xpos"	        "c250"
+		"ypos"			"375"
 		"zpos"			"5"
 		"wide"			"92"
 		"tall"			"44"
@@ -116,7 +116,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"MediumNumbers20"
+		"font"			"MediumNumbers14"
 		"fgcolor"		"HudShadow"
 		"xpos"	        "1"
 		"ypos"			"1"
@@ -133,10 +133,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"BoldNumbers36"
+		"font"			"BoldNumbers30"
 		"fgcolor"		"Ammo"
 		"xpos"	        "c195"		
-		"ypos"	        "365"		
+		"ypos"	        "370"		
 		"zpos"			"7"
 		"wide"	        "95" 
 		"tall"	        "44" 
@@ -149,7 +149,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"BoldNumbers36"
+		"font"			"BoldNumbers30"
 		"fgcolor"		"HudShadow"
 		"xpos"	"-1"
 		"ypos"	"-1"

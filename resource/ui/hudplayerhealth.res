@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"
-		"font"			"BoldNumbers36"
+		"font"			"BoldNumbers30"
 		"fgcolor"		"Health"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -78,7 +78,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"
-		"font"			"BoldNumbers36"
+		"font"			"BoldNumbers30"
 		"fgcolor"		"HudShadow"
 		"pin_to_sibling" "PlayerStatusHealthValue"
 	}
