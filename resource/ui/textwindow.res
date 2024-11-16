@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"ForceStereoRenderToFrameBuffer" "1"
 	}
-
+	// blue bg in motd html stuff
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -28,7 +28,7 @@
 		"tall"			"f0"
 		"autoResize"	"0"
 		"fillcolor"		"Flavor"
-		"visible"		"1"
+		"visible"		"0" 
 		"enabled"		"1"
 	}
 

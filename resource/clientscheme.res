@@ -89,6 +89,7 @@ Scheme
 		"GrayText"             "127 127 127 255"			
 		"FrameGray"            "170 160 154 255"
 		"BlackBorder"          "27 27 27 255"
+		"FullBlack"			   "0 0 0 255"
         
         //unused, backup & test
 

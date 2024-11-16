@@ -1,23 +1,21 @@
 #base "speedo/meter.res"
 "Resource/UI/HudPlayerHealth.res"
 {
-	"HealthBG"	
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"HealthBG"
-		"xpos"		"c-193"
-		"ypos"		"343"
-		"zpos"		"1"
-		"wide"		"95"
-		"tall"		"38"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"defaultBgColor_Override"		"Blank"
-		"PaintBackgroundType""0"
-        "textinsety" "99"
-	}
+	"overheal"
+    {
+        "ControlName"                                  "ImagePanel"
+        "fieldName"                                      "overheal"
+        "xpos"                                        "0"
+        "ypos"                                        "0"
+        "zpos"                                          "0"
+        "wide"                                          "256"
+        "tall"                                          "192"
+        "visible"                                      "1"
+        "enabled"                                      "1"
+        "image"                                          "replay/thumbnails/hp/overheal"
+        "scaleImage"                                  "1"
+        "alpha"                                          "0"
+    }
 	 "hp"
     {
         "ControlName"                                  "ImagePanel"

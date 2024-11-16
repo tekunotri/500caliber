@@ -23,9 +23,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"GrayBG"
-		"infocus_bgcolor_override"		"GrayBG"
-		"outoffocus_bgcolor_override"	"GrayBG"
+		"bgcolor_override"				"FullBlack"
+		"infocus_bgcolor_override"		"FullBlack"
+		"outoffocus_bgcolor_override"	"FullBlack"
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
@@ -33,7 +33,7 @@
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"WhiteS"
 		"titlebardisabledfgcolor_override"		"WhiteS"
-		"titlebarbgcolor_override"				"GrayBG"
+		"titlebarbgcolor_override"				"FullBlack"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -68,7 +68,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"FrameGray"
+		"bgcolor_override"		"FullBlack"
 	}
 	"BackgroundFooter"
 	{
@@ -99,7 +99,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"FrameGray"
+		"bgcolor_override"		"FullBlack"
 	}				
 	"FooterLine"
 	{

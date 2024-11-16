@@ -351,7 +351,7 @@
 		"tall"			"290"
 		"visible"		"1"
 
-		"bgcolor_override"		"GrayBG"
+		"bgcolor_override"		"0 0 0 0"
 
 		"TitleLabel"
 		{
@@ -462,7 +462,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
-			"bgcolor_override"	"GrayBGDark"
+			"bgcolor_override"	"0 0 0 0"
 		}
 	}
    

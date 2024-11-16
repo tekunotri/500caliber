@@ -15,6 +15,9 @@ event HudHealthBonusPulse
 	Animate HealthBarBuff 					Alpha		"0"					Accel 	0.0 0.4
 	Animate HealthBarBuff 					Alpha		"255"				Accel 	0.2 0.2
 
+	Animate overheal 						Alpha		"255"			Accel 	0.0 0.0
+	Animate hp								Alpha 		"0"				Accel   0.0 0.0
+
 	RunEvent HudHealthBonusPulseLoop		0.6
 }
 
@@ -37,6 +40,9 @@ event HudHealthBonusPulseStop
 	Animate	PlayerStatusHealthValue 	    FgColor		"Health"	        Accel 	0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"Health"	        Accel 	0.0 0.0
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Health"            Accel 	0.0 0.0
+	
+	Animate overheal 						Alpha		"0"					Accel 	0.0 0.0
+	Animate hp								Alpha 		"255"				Accel   0.0 0.0
 
 	Animate HealthBarBuff					Alpha		"0"					Accel 	0.0 0.0
 	Animate HealthBarBuff2					Alpha		"0"					Accel 	0.0 0.0

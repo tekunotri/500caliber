@@ -18,9 +18,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"GrayBG"
-		"infocus_bgcolor_override" "GrayBG"
-		"outoffocus_bgcolor_override" "GrayBG"
+		"bgcolor_override"	"FullBlack"
+		"infocus_bgcolor_override" "FullBlack"
+		"outoffocus_bgcolor_override" "FullBlack"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		

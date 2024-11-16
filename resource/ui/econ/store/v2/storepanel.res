@@ -60,7 +60,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"FrameGray"
+		"bgcolor_override"		"FullBlack"
 	}
 	"BackgroundFooter"
 	{
@@ -91,7 +91,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"FrameGray"
+		"bgcolor_override"		"FullBlack"
 	}				
 	"FooterLine"
 	{
