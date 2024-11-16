@@ -20,7 +20,7 @@ Scheme
 		"OffWhite"			"255 255 255 255"
 		"DullWhite"			"214 214 214 255"
 		"Orange"			"214 214 214 255"
-		"TransparentBlack"	"54 54 54 255"
+		"TransparentBlack"		"54 54 54 255"
 		"Black"				"0 0 0 255"
 		"Green"				"63 185 73 255"
 
@@ -197,7 +197,7 @@ Scheme
 		NewGame.SelectionColor		"0 0 0 255"	[$X360]
 		NewGame.DisabledColor		"128 128 128 255"
 
-		TFColors.ChatTextYellow		"251 235 202 255"
+		TFColors.ChatTextYellow		"255 255 0 255"
 		TFColors.ChatTextTeamBlue	"153 204 255 255"
 		TFColors.ChatTextTeamRed	"255 63 53 255"
 	}
@@ -216,7 +216,7 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-		"isproportional" "only"
+
 		"Default"
 		{
 			"1"
@@ -256,9 +256,10 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"8"
+				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -394,12 +395,15 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"8"	[$WIN32]
-				"weight"	"300"
+				"tall"		"22"	[$WIN32]
+				"tall"		"25"	[$X360]
+				"weight"	"700"
+				"yres"		"1200 10000"
 				"dropshadow"	"1"
-				"antialias"		"1"
 			}
 		}
+
+
 	}
 
 	//
