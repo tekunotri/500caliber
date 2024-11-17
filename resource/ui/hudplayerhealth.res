@@ -51,7 +51,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"c-239"
+		"xpos"			"c-240" // 4:3: c-138
 		"ypos"			"130"
 		"zpos"			"5"
 		"wide"			"200"
