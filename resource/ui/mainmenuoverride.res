@@ -1187,7 +1187,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"248"
+		"xpos"			"253"
 		"ypos"			"104"
 		"zpos"			"16"
 		"wide"			"55"
