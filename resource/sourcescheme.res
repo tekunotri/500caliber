@@ -9,14 +9,14 @@ Scheme
 		"G_InctiveWindow"			"0 0 0 255" // Inactive window bg color
 		"G_TitleBg"					"0 0 0 255" // Title bg color
 		"G_TitleText"				"255 255 255 255" // Title text color
-		"G_Highlight"				"0 0 0 255" // Highlight color
+		"G_Highlight"				"255 255 255 255" // Highlight color
 		"G_ConsoleBg"				"0 0 0 255" // Console bg color
 		"G_ListBg"					"0 0 0 255" // List bg color
 		"G_Border"					"255 255 255 255" // Border color
 		"G_Text"					"255 255 255 255" // Text color
-		"G_HighlightText"			"255 255 255 255" // Highlight text color
+		"G_HighlightText"			"0 0 0 255" // Highlight text color
 		"G_SelectedText"			"0 0 0 255" // Selected text color
-		"G_DisabledText"			"128 128 128 255" // Disabled text color
+		"G_DisabledText"			"155 162 204 255" // Disabled text color
 		"G_ButtonBg"				"255 255 255 255" // Button bg color
 		"G_ButtonText"				"0 0 0 255" // Button text color
 		"G_ButtonHoverBg"			"63 62 65 255" // Button hover bg color
@@ -44,7 +44,7 @@ Scheme
 	    "TFMediumBrown"				"69 64 58 255"
 
 	    "QuickListBGDeselected"		"0 0 0 0"
-	    "QuickListBGSelected"       "0 0 0 255" // Highlight color
+	    "QuickListBGSelected"       "255 255 255 255" // Highlight color
 	    
 	    "Blank"				"0 0 0 0"
 	    
