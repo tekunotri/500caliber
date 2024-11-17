@@ -27,7 +27,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"fillcolor"		"Flavor"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	}
 
