@@ -89,24 +89,25 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BoldNumbers24"
+		"font"			"BoldNumbers18"
 		"fgcolor"		"Health"
 	}			
 	"PlayerStatusHealthValueSpecShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpecShadow"
-		"xpos"			"-2"
-		"ypos"			"-5"
-		"zpos"			"-50"
-		"wide"			"55"
-		"tall"			"27"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"4"
+		"wide"			"54"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BoldNumbers26"
+		"font"			"BoldNumbers18"
 		"fgcolor"		"HudShadow"
+		"pin_to_sibling"	"PlayerStatusHealthValueSpec"
 	}	
 
 //Health Pulse taken from bwHUD
