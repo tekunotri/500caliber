@@ -1,7 +1,13 @@
 //============================================================================================================================================================================
 
+event fadeinoverheal
+{
+	Animate overhealfadein					Alpha		"255"			Accel	0.0 0.0
+	Animate overhealfadein					Alpha		"0"				Accel	0.2 0.0
+}
 event HudHealthBonusPulse
 {
+	RunEvent	fadeinoverheal 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"205"		    	Linear 	0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        	Linear 	0.2 0.4
 
@@ -9,43 +15,34 @@ event HudHealthBonusPulse
     Animate	PlayerStatusHealthValueSpec 	FgColor		"Buff"	        	Accel 	0.0 0.0  
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Buff"          	Accel 	0.0 0.0
 	
-	Animate HealthBarBuff					Alpha		"255"				Accel 	0.0 0.0
-	Animate HealthBarBuff2					Alpha		"255"				Accel 	0.0 0.0
-	
-	Animate HealthBarBuff 					Alpha		"0"					Accel 	0.0 0.4
-	Animate HealthBarBuff 					Alpha		"255"				Accel 	0.2 0.2
-
 	Animate overheal 						Alpha		"255"			Accel 	0.0 0.0
 	Animate hp								Alpha 		"0"				Accel   0.0 0.0
 
-	RunEvent HudHealthBonusPulseLoop		0.6
+	//RunEvent HudHealthBonusPulseLoop		0.6
 }
 
 event HudHealthBonusPulseLoop
 {
 	RunEvent HudHealthBonusPulse 			0.0
-	RunEvent PlayerStatusHealthValue 		0.0
-	RunEvent PlayerStatusHealthValueSpec 	0.0
-	RunEvent PlayerStatusHealthValueTour 	0.0
 }
-
+//this shit just does not want to appear... good luck ronocc.... -techno
+event fadeoutoverheal
+{
+	Animate overhealfadeout					Alpha		"255"				Accel 	0.0 0.0
+	Animate overhealfadeout					Alpha		"0"					Accel 	0.2 0.0
+}
 event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 			0.0
 	StopEvent HudHealthBonusPulseLoop 		0.0
-	StopEvent PlayerStatusHealthValue 		0.0
-	StopEvent PlayerStatusHealthValueSpec 	0.0
-	StopEvent PlayerStatusHealthValueTour 	0.0
+	RunEvent  fadeoutoverheal				0.0
+	Animate overheal 						Alpha		"0"					Accel 	0.0 0.0
+	Animate hp								Alpha 		"255"				Accel   0.0 0.0
 
 	Animate	PlayerStatusHealthValue 	    FgColor		"Health"	        Accel 	0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"Health"	        Accel 	0.0 0.0
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Health"            Accel 	0.0 0.0
-	
-	Animate overheal 						Alpha		"0"					Accel 	0.0 0.0
-	Animate hp								Alpha 		"255"				Accel   0.0 0.0
 
-	Animate HealthBarBuff					Alpha		"0"					Accel 	0.0 0.0
-	Animate HealthBarBuff2					Alpha		"0"					Accel 	0.0 0.0
 }
 
 //============================================================================================================================================================================

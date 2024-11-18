@@ -16,6 +16,36 @@
         "scaleImage"                                  "1"
         "alpha"                                          "0"
     }
+	"overhealfadein"
+    {
+        "ControlName"                                  "ImagePanel"
+        "fieldName"                                      "overhealfadein"
+        "xpos"                                        "0"
+        "ypos"                                        "0"
+        "zpos"                                          "0"
+        "wide"                                          "256"
+        "tall"                                          "192"
+        "visible"                                      "1"
+        "enabled"                                      "1"
+        "image"                                          "replay/thumbnails/hp/overhealstart"
+        "scaleImage"                                  "1"
+        "alpha"                                          "255"
+    }
+	"overhealfadeout"
+    {
+        "ControlName"                                  "ImagePanel"
+        "fieldName"                                      "overhealfadeout"
+        "xpos"                                        "0"
+        "ypos"                                        "0"
+        "zpos"                                          "0"
+        "wide"                                          "256"
+        "tall"                                          "192"
+        "visible"                                      "1"
+        "enabled"                                      "1"
+        "image"                                          "replay/thumbnails/hp/overhealstop"
+        "scaleImage"                                  "1"
+        "alpha"                                          "255"
+    }
 	 "hp"
     {
         "ControlName"                                  "ImagePanel"
