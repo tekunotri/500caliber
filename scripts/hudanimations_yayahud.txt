@@ -5,6 +5,12 @@ event fadeinoverheal
 	Animate overhealfadein					Alpha		"255"			Accel	0.0 0.0
 	Animate overhealfadein					Alpha		"0"				Accel	0.2 0.0
 }
+// fadeout does not work atm. sorry.
+event fadeoutoverheal
+{
+	Animate overhealfadeout					Alpha		"255"				Accel 	0.0 0.0
+	Animate overhealfadeout					Alpha		"0"					Accel 	0.2 0.0
+}
 event HudHealthBonusPulse
 {
 	RunEvent	fadeinoverheal 0.0
@@ -20,17 +26,12 @@ event HudHealthBonusPulse
 
 	//RunEvent HudHealthBonusPulseLoop		0.6
 }
-
 event HudHealthBonusPulseLoop
 {
 	RunEvent HudHealthBonusPulse 			0.0
 }
 //this shit just does not want to appear... good luck ronocc.... -techno
-event fadeoutoverheal
-{
-	Animate overhealfadeout					Alpha		"255"				Accel 	0.0 0.0
-	Animate overhealfadeout					Alpha		"0"					Accel 	0.2 0.0
-}
+
 event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 			0.0
