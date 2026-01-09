@@ -167,7 +167,7 @@ Scheme
 			}
 		}
 		
-		"BoldNumbers54"             //Used for hp & ammo
+		"BoldNumbers54"             //Used for uber only
 		{
 			"1"
 			{
@@ -175,7 +175,7 @@ Scheme
 				"tall"		"54"
 				"additive"	"0"
 				"antialias" 	"1"
-                "dropshadow"	"0"
+                "dropshadow"	"1"
 			}
 		}
         "BoldNumbers36"             //Used for hp & ammo

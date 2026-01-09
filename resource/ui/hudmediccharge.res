@@ -1,22 +1,6 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-    "MedicBG"	
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"MedicBG"
-		"xpos"		"c98"
-		"ypos"		"343"
-		"zpos"		"-1"
-		"wide"		"120"
-		"tall"		"38"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"defaultBgColor_Override"		"Blank"
-		"PaintBackgroundType""0"
-        "textinsety" "99"
-	}
+
     "ChargeMeter"                    
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -122,27 +106,7 @@
 		"font"			"BoldNumbers54"
 		"fgcolor"		"White"
 	}
-    "ChargeLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c95"
-		"ypos"			"336"	
-		"zpos"			"-1"
-		"wide"			"140"	
-		"tall"			"44"	
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"BoldNumbers54"
-		"fgcolor"		"HudShadow"
-	}
+
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -158,12 +122,12 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
         "wrap"          "1"
-		"labelText"		"8888888888888888888888DAMMITVAVLVE"
+		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"fgcolor"	    "White"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Shapes64"
+		"font"			"BoldNumbers54"
 	}
 	"ChargeMeter1"
 	{	

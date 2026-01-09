@@ -47,8 +47,8 @@ Scheme
         "AmmoLow"              "187 187 187 255"    //Low ammo count
         
         "ChargingUber"  "227 227 227 255"   //Percentage color when charging
-        "UberMeter"     "22 182 71 255"     //Uber meter ready color
-        "Uber"          "22 182 71 255"     //Uber ready color
+        "UberMeter"     "18 127 220 255"     //Uber meter ready color
+        "Uber"          "18 127 220 255"     //Uber ready color
         
 		"Health"               	"255 255 0 255"    //Normal health color
         "Buff"             		"18 127 220 255"       //Buffed or low color, default white
