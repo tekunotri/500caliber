@@ -1,18 +1,5 @@
-///////////////////////////////////////////////////////////
-// Tracker scheme resource file
-//
-// sections:
-//		Colors			- all the colors used by the scheme
-//		BaseSettings	- contains settings for app to use to draw controls
-//		Fonts			- list of all the fonts used by app
-//		Borders			- description of all the borders
-//
-///////////////////////////////////////////////////////////
 Scheme
 {
-	//////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
 		// base colors
@@ -23,14 +10,9 @@ Scheme
 		"TransparentBlack"		"54 54 54 255"
 		"Black"				"0 0 0 255"
 		"Green"				"63 185 73 255"
-
 		"Blank"				"0 0 0 0"
 	}
 
-	///////////////////// BASE SETTINGS ////////////////////////
-	//
-	// default settings for all panels
-	// controls use these to determine their settings
 	BaseSettings
 	{
 		// vgui_controls color specifications
@@ -41,8 +23,7 @@ Scheme
 		Button.TextColor				"White"
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"				[$WIN32]
-		Button.ArmedBgColor				"190 115 0 255"		[$X360]
+		Button.ArmedBgColor				"Blank"	
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
@@ -129,7 +110,7 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					17
+		ScrollBar.Wide					16
 
 		ScrollBarButton.FgColor				"Blank"	//buttons invis
 		ScrollBarButton.BgColor				"Blank"
@@ -202,18 +183,11 @@ Scheme
 		TFColors.ChatTextTeamRed	"255 63 53 255"
 	}
 
-	//////////////////////// BITMAP FONT FILES /////////////////////////////
-	//
-	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
 	BitmapFontFiles
 	{
-		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
 
-	//////////////////////// FONTS /////////////////////////////
-	//
-	// describes all the fonts
 	Fonts
 	{
 

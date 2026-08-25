@@ -1,23 +1,27 @@
-
 Scheme
 {	
-	//////////////////////// BITMAP FONT FILES /////////////////////////////
-	//
-	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
-	BitmapFontFiles
-	{
-		// UI buttons, custom font, (256x64)
-		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
-	}
-	//
-	//////////////////////// FONTS /////////////////////////////
-	//
-	// describes all the fonts
 	Fonts
 	{
-        /////////////////////
-        //Shapes and Symbols
-        
+        "Tech18"
+		{
+			"1"
+			{
+				"name"			"Technology Bold"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+        "Tech18I"
+		{
+			"1"
+			{
+				"name"			"Technology Bold Italic"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
         "SymbolNo18"
 		{
 			"1"
@@ -167,7 +171,7 @@ Scheme
 			}
 		}
 		
-		"BoldNumbers54"             //Used for uber only
+		"BoldNumbers54"             //Used for hp & ammo
 		{
 			"1"
 			{
@@ -175,7 +179,7 @@ Scheme
 				"tall"		"54"
 				"additive"	"0"
 				"antialias" 	"1"
-                "dropshadow"	"1"
+                "dropshadow"	"0"
 			}
 		}
         "BoldNumbers36"             //Used for hp & ammo
@@ -667,6 +671,17 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
                 "dropshadow"	"0"
+			}
+		}
+        "DeathNoticeShadow"
+		{
+			"1"
+			{
+				"name"		"Liberation Sans Regular"
+				"tall"		"12"
+				"dropshadow"	"1"
+				"antialias" 	"1"
+				"weight"		"500"
 			}
 		}
         "DeathNotice"

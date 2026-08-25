@@ -6,7 +6,7 @@
 		"fieldName"		"Currency"
 		"font"			"NoveMedium18"
 		"fgcolor"		"White"
-		"xpos"			"c-120"		//16
+		"xpos"			"r150"		//16
 		"ypos"			"r19"
 		"zpos"			"3"
 		"wide"			"80"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG"
-		"xpos"			"c-120"		//15
+		"xpos"			"r150"		//15
 		"ypos"			"r17"		//7
 		"zpos"			"-22"
 		"wide"			"80"

@@ -1,3 +1,4 @@
+//#base "disguisestatuspanel_anim.res"
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
@@ -51,9 +52,9 @@
 		"xpos"			"3"	
 		"ypos"			"r67"
 		"zpos"			"7"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"	

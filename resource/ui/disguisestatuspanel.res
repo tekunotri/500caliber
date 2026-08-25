@@ -1,3 +1,5 @@
+#base "disguisestatuspanel_anim.res"
+
 "Resource/UI/ItemModelPanel.res"
 {
 	"itemmodelpanel"
@@ -29,11 +31,11 @@
 		"xpos"			"240"
 		"ypos"			"446"  //446
         "zpos"          "24"
-		"wide"			"9" //9
-		"tall"			"9" //9
+		"wide"			"0" //9
+		"tall"			"0" //9
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/yayahud/bg_black"
 		"scaleImage"		"1"
@@ -58,7 +60,7 @@
 		"wide"			"180"
 		"tall"			"20"
 		"fillcolor"		"BrightGray"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	}
 
@@ -67,16 +69,16 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"Medium12"
-		"xpos"			"71"
-		"ypos"			"433"
+		"xpos"			"60"
+		"ypos"			"440"
 		"zpos"			"1"
-		"wide"			"171"
+		"wide"			"81"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Black"
+		"fgcolor"		"WHITE"
 		"labelText"		"%disguisename%"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 	}
 	
 	"WeaponNameLabel"
@@ -84,16 +86,16 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"NoveMedium8"
-		"xpos"			"71"
-		"ypos"			"443"
+		"xpos"			"60"
+		"ypos"			"450"
 		"zpos"			"1"
-		"wide"			"171"
+		"wide"			"81"
 		"tall"			"11"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Black"
+		"fgcolor"		"white"
 		"labelText"		"%weaponname%"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"
 	}
 	"WeaponNameLabelShadow"
 	{	
@@ -116,8 +118,9 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"22"
-		"ypos"			"434"
+		"xpos"			"24"
+		"ypos"			"442"
+		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"21"
 		"visible"			"1"
@@ -127,6 +130,46 @@
 		"TFFont"			"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
+		
+		"TargetHPBG"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"TargetHPBG"
+			"visible"		"0"
+		}
+		"PlayerStatusHealthValueSpec"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayerStatusHealthValueSpec"
+			"xpos"			"0"
+			"ypos"			"-3"
+			"zpos"			"5"
+			"wide"			"54"
+			"tall"			"25"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%Health%"
+			"textAlignment"	"center"	
+			"font"			"default"
+			"fgcolor"		"Health"
+		}			
+		"PlayerStatusHealthValueSpecShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayerStatusHealthValueSpecShadow"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"4"
+			"wide"			"54"
+			"tall"			"25"
+			"visible"		"0"
+			"enabled"		"1"
+			"labelText"		"%Health%"
+			"textAlignment"	"center"	
+			"font"			"BoldNumbers18"
+			"fgcolor"		"HudShadow"
+			"pin_to_sibling"	"PlayerStatusHealthValueSpec"
+		}	
 	}	
-	
+
 }

@@ -6,7 +6,7 @@
 		"fieldName"				"HudTournament"
 		
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"40"
 		"wide"					"f0"
 		"tall"					"480"
 
@@ -517,7 +517,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"Press"
@@ -554,35 +554,11 @@
 		"wide"			"24"
 		"tall"			"15"
 		"zpos"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%readylabel%"
 		"textAlignment"	"north-west"
-        
-        if_readymode
-		{
-			"wide"		"f0"
-			"ypos"		"85"
-			"xpos"		"c-55"
-			"textAlignment"	"center"
-		}
-		if_competitive
-		{
-			"wide"		"f0"
-			"ypos"		"85"
-			"xpos"		"c-55"
-			"textAlignment"	"center"
-		}
-		if_mvm
-		{
-			"wide"		"f0"
-			"ypos"		"105"
-			"xpos"		"c-55"
-			"textAlignment"	"center"
-		}
 	}
 	
 	"TournamentInstructionsLabelShadow"

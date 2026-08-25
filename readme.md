@@ -4,7 +4,8 @@ an edit of [yayahud](https://github.com/Hypnootize/yayahud) designed to recreate
 
 ## screenshots
 
-[here you go :)](https://imgur.com/a/yRXC2EI)
+coming soon
+
 
 ## credits
 
@@ -13,5 +14,3 @@ Jofre Problem - [Speed Meter HUD](https://gamebanana.com/mods/378554) used for s
 Hypnotize - [m0rehud](https://github.com/Hypnootize/m0rehud) kill icons
 
 whayay - yayahud
-
-bryce bucher - cool game

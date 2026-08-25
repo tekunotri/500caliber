@@ -1,18 +1,6 @@
-
 #base "../_overrides/crosshairs.res"
-
 "Resource/HudLayout.res"
 {
-    /////////////////////////////////////////////////////////////////////////////
-	//  CUSTOMIZATION START   ///////////////////////////////////////////////////
-	/////////////////////////////////////////////////////////////////////////////
-
-    /////////////////////////////////////////////////////////////////////////////
-	//DEATHNOTICE
-	//
-	//This is the killfeed on the top right corner
-	/////////////////////////////////////////////////////////////////////////////
-
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
@@ -29,25 +17,16 @@
 		"LineSpacing"	  "-1"      //Increase this to around "2" for line spacing in the killfeed
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"
-		"TextFont"		"DeathNotice"
+		"TextFont"		"DeathNoticeShadow"
 
 		"TeamBlue"		"Blue"
 		"TeamRed"		"Red"
 		"IconColor"		"White"
 		"LocalPlayerColor"	"Black"
 
-		"BaseBackgroundColor"	"DarkGray"	        //Dark background color
+		"BaseBackgroundColor"	"0 0 0 0"	        //Dark background color
 		"LocalBackgroundColor"	"242 242 242 255"	//Background color for you own actions
 	}
-
-	/////////////////////////////////////////////////////////////////////////////
-	//CLOSECAPTIONS
-	//
-	//These display notifications for in-game voice commands (Player Hurt/Buffed, Medic Charge Call)
-	//
-	//To enable paste the caption files from /Custom/ into your resource folder.
-	//Type "closecaptions 1" in console if they aren't showing.
-	/////////////////////////////////////////////////////////////////////////////
 
 	HudCloseCaption
 	{
@@ -68,12 +47,6 @@
 		"topoffset"		"1"
 	}
 
-	/////////////////////////////////////////////////////////////////////////////
-	//DAMAGE INDICATORS
-	//
-	//Red indicator when getting hit
-	/////////////////////////////////////////////////////////////////////////////
-
 	HudDamageIndicator
 	{
 		"fieldName" "HudDamageIndicator"    // Remove everything besides
@@ -87,43 +60,6 @@
 		"MaximumHeight" "70"                //
 		"MinimumTime" "1"                   //
 	}
-
-	/////////////////////////////////////////////////////////////////////////////
-	/////////////////////////////////////////////////////////////////////////////
-	//  CUSTOMIZATION END   /////////////////////////////////////////////////////
-	/////////////////////////////////////////////////////////////////////////////
-	/////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	HudPlayerStatus                     //Health Amount
 	{
 		"fieldName" "HudPlayerStatus"
@@ -173,8 +109,8 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	    "c-80"
-		"ypos"	"0"
+		"xpos"	    "74"
+		"ypos"	"c-40"
 		"wide"	"f0"
 		"tall"	"480"
 
@@ -329,11 +265,11 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"24"
-		"ypos"		"r457"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"-1"
-		"wide"		"248"
-		"tall"		"453"
+		"wide"		"f0"
+		"tall"		"480"
 	}
 
 	CMainTargetID

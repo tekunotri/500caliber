@@ -1,4 +1,3 @@
-//stolen from toonhud gg
 #base "SourceSchemeBase.res"
 Scheme
 {
@@ -14,8 +13,8 @@ Scheme
 		"G_ListBg"					"0 0 0 255" // List bg color
 		"G_Border"					"255 255 255 255" // Border color
 		"G_Text"					"255 255 255 255" // Text color
-		"G_HighlightText"			"0 0 0 255" // Highlight text color
-		"G_SelectedText"			"0 0 0 255" // Selected text color
+		"G_HighlightText"			"50 50 50 255" // Highlight text color
+		"G_SelectedText"			"110 210 110 255" // Selected text color
 		"G_DisabledText"			"155 162 204 255" // Disabled text color
 		"G_ButtonBg"				"255 255 255 255" // Button bg color
 		"G_ButtonText"				"0 0 0 255" // Button text color
@@ -24,8 +23,6 @@ Scheme
 		"G_InputBg"					"0 0 0 255" // Input bg color
 		"G_Light"					"255 255 255 50"
 		"G_Dark"					"0 0 0 50"
-	
-		// ------------------------------------------
 		
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
@@ -103,7 +100,6 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 		
-		// Radio buttons
 		RadioButton.TextColor			"G_Text"
 		RadioButton.SelectedTextColor	"G_SelectedText"
 		RadioButton.ArmedTextColor		"G_SelectedText"

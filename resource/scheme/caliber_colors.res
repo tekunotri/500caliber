@@ -2,35 +2,6 @@ Scheme
 {	
 	Colors
 	{
-		/////////////////////////////////////////////////////////////////////////////////////
-		//COLORS & OPTIONAL HUD ELEMENTS
-		//You can customize the look and feel of the HUD here.
-		//
-        //HOW IT WORKS
-        //
-		//"Control Name"     "Red Green Blue Transparency"   //Description or comment
-        //
-		//The first 3 numbers are the RGB values, the last one is the transparency
-		//Setting the numbers to "0 255 0 255" would create a solid green color for example
-        //
-        //
-        //CHOOSING COLORS
-        //
-        //This is a decent site for finding colors
-		//https://kuler.adobe.com/create/color-wheel/
-        //Set it to "custom" unless you want a specific scheme.
-        //
-        //You can other schemes here: kuler.adobe.com/explore
-		//
-		//You will need to restart TF2 for any changes to take effect.
-        //
-        //PS: You can learn more about this by googling "RGB" or 
-        //by taking a look at the various hud tutorials that are out there.
-        //Some are linked in the FAQ.
-		/////////////////////////////////////////////////////////////////////////////////////
-		
-        ////OPTIONS////
-        
         // Set the last value to "255" to enable or "0" to disable a specific feature
         "MeterText"     "142 142 142 255"   //Item charge meter labels
         "Small%"        "227 227 227 0"     //Shows Uber % under crosshair
@@ -47,8 +18,8 @@ Scheme
         "AmmoLow"              "187 187 187 255"    //Low ammo count
         
         "ChargingUber"  "227 227 227 255"   //Percentage color when charging
-        "UberMeter"     "18 127 220 255"     //Uber meter ready color
-        "Uber"          "18 127 220 255"     //Uber ready color
+        "UberMeter"     "22 182 71 255"     //Uber meter ready color
+        "Uber"          "22 182 71 255"     //Uber ready color
         
 		"Health"               	"255 255 0 255"    //Normal health color
         "Buff"             		"18 127 220 255"       //Buffed or low color, default white
@@ -176,7 +147,7 @@ Scheme
 		"HudTrainingHint"			"212 212 212 255"
 		
 		"TanDark"				"110 110 110 255"
-		"TanLight"				"221 221 221 255"
+		"TanLight"				"255 255 255 255"
 		"TanDarker"				"42 42 42 255"
 		
 		"StoreDarkTan"			"121 121 121 255"
