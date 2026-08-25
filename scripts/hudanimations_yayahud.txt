@@ -1,101 +1,216 @@
 //============================================================================================================================================================================
 
-event HudHealthBonusPulse
+event HudHealthFlicker
 {
+	Animate	hpflicker1 			 			Alpha		"255"				Linear 	0.0 0.2
+	Animate	hpflicker1 			 			Alpha		"0"					Linear 	0.2 0.4
+
+//	Animate	hpflicker2 			 			Alpha		"255"				Linear 	0.1 0.0
+//	Animate	hpflicker2 			 			Alpha		"0"					Linear 	0.2 0.0
+
+	Animate	hp 			 					Alpha		"255"				Linear 	0.0 0.0
+	
+	RunEvent HudHealthFlicker 				0.4
+}
+
+event ActiveTimerBGPulse
+{
+}
+event ActiveTimerHighlight
+{	
+	SetFont TimePanelValue "font"				"Tech18I"			0.001
+	Animate TimePanelValue xpos				"8"			Spline	0 0.4
+}
+event ActiveTimerDim
+{
+	Animate TimePanelValue xpos				"-8"		Spline	0 0.4
+	SetFont TimePanelValue "font"				"Tech18"			0.001
+}
+
+event HudHealthBonusPulseStart
+{
+	Animate overhealstart 					Alpha		"255"				Accel 	0.0 0.0
+	Animate overhealstart 					Alpha		"0"					Accel 	0.2 0.0
+	Animate overhealstart1 					Alpha		"255"				Accel 	0.2 0.0
+	Animate overhealstart1 					Alpha		"0"					Accel 	0.3 0.0
+	Animate overheal 						Alpha		"255"				Accel 	0.3	0.0
+	Animate overheal 						Alpha		"255"				Accel 	0.0 0.0
+}
+event HudHealthBonusPulse
+{	
+	//StopEvent HudHealthFlicker				0.0
+	RunEvent HudHealthBonusPulseStart		0.1
+	Animate hp								Alpha 		"0"					Accel   0.0 0.0
+
+	StopEvent HudHealthDyingPulse 			0.0
+	StopEvent HudHealthDyingPulseStop		0.0
+	
+	Animate overheal 						Alpha		"255"				Accel 	0.4 0.0
+	
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"205"		    	Linear 	0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        	Linear 	0.2 0.4
 
     Animate	PlayerStatusHealthValue 	    FgColor		"Buff"	       	 	Accel 	0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"Buff"	        	Accel 	0.0 0.0  
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Buff"          	Accel 	0.0 0.0
-	
-	Animate HealthBarBuff					Alpha		"255"				Accel 	0.0 0.0
-	Animate HealthBarBuff2					Alpha		"255"				Accel 	0.0 0.0
-	
-	Animate HealthBarBuff 					Alpha		"0"					Accel 	0.0 0.4
-	Animate HealthBarBuff 					Alpha		"255"				Accel 	0.2 0.2
-
-	Animate overheal 						Alpha		"255"			Accel 	0.0 0.0
-	Animate hp								Alpha 		"0"				Accel   0.0 0.0
-
-	RunEvent HudHealthBonusPulseLoop		0.6
 }
 
 event HudHealthBonusPulseLoop
 {
-	RunEvent HudHealthBonusPulse 			0.0
+	//RunEvent HudHealthBonusPulse 			0.0
 	RunEvent PlayerStatusHealthValue 		0.0
 	RunEvent PlayerStatusHealthValueSpec 	0.0
 	RunEvent PlayerStatusHealthValueTour 	0.0
 }
 
+event HudHealthBonusPulseEnd
+{
+	Animate overhealstop 					Alpha		"255"				Accel 	0.0 0.0
+	Animate overhealstop 					Alpha		"0"					Accel 	0.1 0.0
+	Animate overhealstop1 					Alpha		"255"				Accel 	0.1 0.0
+	Animate overhealstop1 					Alpha		"0"					Accel 	0.15 0.0
+}
 event HudHealthBonusPulseStop
+{
+	//StopEvent HudHealthDyingPulse 			0.0
+	//StopEvent HudHealthDyingPulseStop		0.0
+
+	StopEvent HudHealthBonusPulse 			0.0
+	StopEvent HudHealthBonusPulseLoop 		0.0
+	StopEvent PlayerStatusHealthValue 		0.0
+	StopEvent PlayerStatusHealthValueSpec 	0.0
+	StopEvent PlayerStatusHealthValueTour 	0.0
+	
+	RunEvent HudHealthBonusPulseEnd			0.0
+	//RunEvent HudHealthFlicker				0.0
+	
+	Animate overheal 						Alpha		"0"					Accel 	0.0 0.0
+	Animate hp								Alpha 		"255"				Accel   0.0 0.0
+	
+	Animate	PlayerStatusHealthValue 	    FgColor		"Health"	        Accel 	0.0 0.0
+    Animate	PlayerStatusHealthValueSpec 	FgColor		"Health"	        Accel 	0.0 0.0
+	Animate	PlayerStatusHealthValueTour  	FgColor		"Health"            Accel 	0.0 0.0
+}
+
+event Reset
 {
 	StopEvent HudHealthBonusPulse 			0.0
 	StopEvent HudHealthBonusPulseLoop 		0.0
 	StopEvent PlayerStatusHealthValue 		0.0
 	StopEvent PlayerStatusHealthValueSpec 	0.0
 	StopEvent PlayerStatusHealthValueTour 	0.0
-
-	Animate	PlayerStatusHealthValue 	    FgColor		"Health"	        Accel 	0.0 0.0
-    Animate	PlayerStatusHealthValueSpec 	FgColor		"Health"	        Accel 	0.0 0.0
-	Animate	PlayerStatusHealthValueTour  	FgColor		"Health"            Accel 	0.0 0.0
 	
+	RunEvent HudHealthBonusPulseEnd			0.0
+	//RunEvent HudHealthFlicker				0.0
+	
+	Animate low 							Alpha		"0"					Accel 	0.0 0.0
 	Animate overheal 						Alpha		"0"					Accel 	0.0 0.0
 	Animate hp								Alpha 		"255"				Accel   0.0 0.0
-
-	Animate HealthBarBuff					Alpha		"0"					Accel 	0.0 0.0
-	Animate HealthBarBuff2					Alpha		"0"					Accel 	0.0 0.0
+	//Animate	low1 			 			 	Alpha		"255"				Accel 	0.0 0.0
+	Animate	low1 			 			 	Alpha		"0"					Accel 	0.0 0.0
+	Animate overhealstop1 					Alpha		"0"					Accel 	0.0 0.0
+	Animate overhealstart1 					Alpha		"0"					Accel 	0.0	0.0
+	Animate	lowflicker1 			 		Alpha		"0"					Linear 	0.0 0.0
+	Animate	lowflicker2 			 		Alpha		"0"					Linear 	0.0 0.0
 }
 
 //============================================================================================================================================================================
 
+event HudHealthDyingFlicker
+{
+	StopEvent 	HudHealthFlicker				0.1
+	Animate	hpflicker1 			 			Alpha		"0"					Linear 	0.0 0.0
+	
+	Animate	lowflicker1 			 		Alpha		"255"				Linear 	0.0 0.0
+	Animate	lowflicker1 			 		Alpha		"0"					Linear 	0.1 0.0
+
+	Animate	lowflicker2 			 		Alpha		"255"				Linear 	0.1 0.0
+	Animate	lowflicker2 			 		Alpha		"0"					Linear 	0.2 0.0
+
+	Animate	low 			 				Alpha		"255"				Linear 	0.2 0.0
+	Animate	low 			 				Alpha		"0"					Linear 	0.3 0.0
+	
+	RunEvent HudHealthDyingFlicker 0.3
+}
+
+event HudHealthDyingPulseStart
+{
+	
+	//StopEvent HudHealthBonusPulse 			0.0
+	//StopEvent HudHealthBonusPulseStop 		0.0
+	//StopEvent 	HudHealthFlicker				0.1
+	
+	Animate	low1 			 			 	Alpha		"255"				Accel 	0.0 0.0
+	Animate	low1 			 			 	Alpha		"0"					Accel 	0.1 0.0
+
+	Animate overhealstop1 					Alpha		"255"				Accel 	0.1 0.0
+	Animate overhealstop1 					Alpha		"0"					Accel 	0.2 0.0
+
+	Animate overhealstart1 					Alpha		"255"				Accel 	0.2 0.0
+	Animate overhealstart1 					Alpha		"0"					Accel 	0.3 0.0
+
+	Animate	low4 			 			 	Alpha		"255"				Accel 	0.3 0.0
+	Animate	low4 			 			 	Alpha		"0"					Accel 	0.4 0.0
+	
+	Animate	low 			 			 	Alpha		"255"				Accel 	0.4 0.0
+}
 event HudHealthDyingPulse
 {
-	Animate	low 			 			 	Alpha		"255"				Linear 	0.0 0.0
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"		        Linear 	0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		         	Linear 	0.125 0.075
+	//StopEvent HudHealthBonusPulse 			0.0
+	//StopEvent HudHealthBonusPulseStop 		0.0
+	//RunEvent HudHealthDyingFlicker			0.45
+	StopEvent 	HudHealthFlicker				0.1
+	RunEvent HudHealthDyingPulseStart		0.0
+	
+	Animate hp 								Alpha		"0"					Accel 	0.0 0.0
+
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"175"		        Linear 	0.0 0.075
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		         	Linear 	0.125 0.075
 
     Animate	PlayerStatusHealthValue 	    FgColor		"Low"	        	Accel 	0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"Low"	        	Accel 	0.0 0.0  
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Low"          		Accel 	0.0 0.0
-
-	Animate HealthBarHurt					Alpha		"255"				Accel 	0.0 0.0
-	Animate HealthBarHurt2					Alpha		"255"				Accel 	0.0 0.0
-	
-	Animate HealthBarHurt					Alpha		"0"					Accel 	0.0 0.4
-	Animate HealthBarHurt					Alpha		"255"				Accel 	0.2 0.2
-	RunEvent HudHealthDyingPulseLoop		0.6
 }
-
 event HudHealthDyingPulseLoop
 {
-	RunEvent HudHealthDyingPulse 			0.0
-	RunEvent PlayerStatusHealthValue 		0.0
-	RunEvent PlayerStatusHealthValueSpec 	0.0
-	RunEvent PlayerStatusHealthValueTour 	0.0
+	RunEvent HudHealthDyingFlicker 			0.0
+}
+
+event HudHealthDyingPulseEnd
+{
+	Animate overhealstart1 					Alpha		"255"				Accel 	0.0 0.0
+	Animate overhealstart1 					Alpha		"0"					Accel 	0.05 0.0
+
+	Animate	low4 			 			 	Alpha		"255"				Accel 	0.05 0.0
+	Animate	low4 			 			 	Alpha		"0"					Accel 	0.1 0.0
+
+	Animate overheal 						Alpha		"255"				Accel 	0.1 0.0
+	Animate overheal 						Alpha		"0"					Accel 	0.15 0.0
+
+	Animate	low1 			 			 	Alpha		"255"				Accel 	0.15 0.0
+	Animate	low1 			 			 	Alpha		"0"					Accel 	0.2 0.0
+	
+	Animate hp 								Alpha		"255"				Accel 	0.2 0.0
+	Animate hp 								Alpha		"255"				Accel 	0.25 0.0
 }
 
 event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 			0.0
-	StopEvent HudHealthDyingPulseLoop 		0.0
-	StopEvent PlayerStatusHealthValue 		0.0
-	StopEvent PlayerStatusHealthValueSpec 	0.0
-	StopEvent PlayerStatusHealthValueTour 	0.0
-
-
+	StopEvent HudHealthDyingFlicker			0.0
+	
+	RunEvent HudHealthDyingPulseEnd			0.0
+	//RunEvent HudHealthFlicker				0.0
+	
 	Animate	PlayerStatusHealthValue 	    FgColor		"Health"			Accel 	0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"Health"			Accel 	0.0 0.0
 	Animate	PlayerStatusHealthValueTour  	FgColor		"Health"			Accel 	0.0 0.0
-
-	Animate HealthBarHurt					Alpha		"0"					Accel 	0.0 0.0
-	Animate HealthBarHurt2					Alpha		"0"					Accel 	0.0 0.0
-
-	Animate hp 								Alpha		"255"			Accel 	0.0 0.0
-	Animate low								Alpha 		"0"				Accel   0.0 0.0
-
 	
+	Animate overheal 						Alpha		"0"					Accel 	0.0 0.0
+	Animate overhealstop 					Alpha		"0"					Accel 	0.0 0.0
+	Animate overhealstop1 					Alpha		"0"					Accel 	0.0 0.0
+	Animate hp 								Alpha		"255"				Accel 	0.0 0.0
+	Animate low								Alpha 		"0"					Accel   0.0 0.0
 }
 
 //============================================================================================================================================================================
@@ -133,7 +248,7 @@ event HudLowAmmoPulseStop
 
 	Animate lowammo							Alpha		"0"					Linear	0.0 0.0
 	Animate reloading						Alpha		"255"				Linear	0.0 0.0
-	Animate reloading						Alpha		"0"					Linear	1.2 0.0
+	Animate reloading						Alpha		"0"					Linear	0.6 0.0
 
     Animate ammo							Alpha		"255"				Linear	0.0 0.0
 
@@ -144,7 +259,7 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	            	FgColor		"Uber"				Linear 	0.0 0.0
+	Animate	MedicBG 	            		BgColor		"Uber"				Linear 	0.0 0.0
 	Animate	ChargeMeter 	        		FgColor		"UberMeter"		    Linear 	0.0 0.0
 
 	RunEvent HudMedicChargedLoop			0.6
@@ -164,6 +279,7 @@ event HudMedicChargedStop
 	StopEvent ChargeLabel 					0.0
 	StopEvent ChargeMeter 					0.0
 
+    Animate	MedicBG 	            		BgColor		"Blank"	       		Linear 	0.0 0.0
 	Animate	ChargeLabel 	        		FgColor		"White"		   		Linear 	0.0 0.0001
 	Animate	ChargeMeter 	        		FgColor		"White"		   		Linear 	0.0 0.0001
 }
@@ -211,12 +327,36 @@ event HudSpyDisguiseHide
 
 event HudSpyDisguiseFadeIn
 {
+	Animate D1								Alpha		"255"				Linear 	0.0 0.0
+	Animate D1								Alpha		"0"					Linear 	0.05 0.0
+	
+	Animate D2								Alpha		"255"				Linear 	0.05 0.0
+	Animate D2								Alpha		"0"					Linear 	0.1 0.0
+
+	Animate D3								Alpha		"255"				Linear 	0.1 0.0
+	Animate D3								Alpha		"0"					Linear 	0.15 0.0
+
+	Animate D4								Alpha		"255"				Linear 	0.15 0.0
+	Animate D4								Alpha		"0"					Linear 	0.2 0.0
+
+	Animate D5								Alpha		"255"				Linear 	0.2 0.0
+	
+	Animate SpectatorGUIHealth				Alpha		"0"					Linear 	0.0 0.0
+	Animate SpectatorGUIHealth				Alpha		"255"				Linear 	0.15 0.0
+	
 	Animate PlayerStatusSpyImage			Alpha		"255"				Linear 	0.9 0.1
 	Animate PlayerStatusClassImage			Alpha		"255"				Linear 	0.0 0.0	
 }
 
 event HudSpyDisguiseFadeOut
 {
+	Animate D1								Alpha		"0"					Linear 	0.0 0.0
+	Animate D2								Alpha		"0"					Linear 	0.0 0.0
+	Animate D3								Alpha		"0"					Linear 	0.0 0.0
+	Animate D4								Alpha		"0"					Linear 	0.0 0.0
+	Animate D5								Alpha		"0"					Linear 	0.0 0.0
+	Animate SpectatorGUIHealth				Alpha		"0"					Linear 	0.0 0.0
+	
 	Animate PlayerStatusSpyImage			Alpha		"0"					Linear 	0.9 0.1	
 	Animate PlayerStatusClassImage			Alpha		"0"					Linear 	0.0 0.0
 }
@@ -240,11 +380,14 @@ event HudTournamentSetupPanelClose
 event CompetitiveGame_LowerChatWindow
 {
 }
-event CompetitiveGame_RestoreChatWindow{
-    RunEvent HudHealthDyingPulseStop 0.1
-    RunEvent HudHealthBonusPulseStop 0.1
-    RunEvent HudLowAmmoPulseStop 0.1
-    RunEvent HudMedicChargedStop 0.1
+event CompetitiveGame_RestoreChatWindow
+{
+	RunEvent Reset 0.0
+	RunEvent HudHealthFlicker		0.0
+   RunEvent HudHealthDyingPulseStop 0.0
+   RunEvent HudHealthBonusPulseStop 0.0
+   RunEvent HudLowAmmoPulseStop 0.0
+   RunEvent HudMedicChargedStop 0.0
 }
 event HudTournament_MoveChatWindow
 {

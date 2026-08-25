@@ -140,5 +140,15 @@ Scheme {
 			"font" "resource/fonts/paula.ttf"
 			"name" "Paula"
 		}
+		"11"
+		{
+			"font" "resource/fonts/Technology-Bold.ttf"
+			"name" "Technology Bold"
+		}
+		"12"
+		{
+			"font" "resource/fonts/Technology-BoldItalic.ttf"
+			"name" "Technology Bold Italic"
+		}
 	}
 }

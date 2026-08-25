@@ -296,7 +296,7 @@
         {
             "ControlName"	"CExLabel"
             "fieldName"		"TimePanelValue"
-            "font"			"MediumNumbers20"
+            "font"			"tech18"
             "fgcolor"		"White"
             "xpos"			"c-40"
             "ypos"			"-1"
